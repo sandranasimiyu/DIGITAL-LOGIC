@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">number_convertor</string>
+    <string name="convert">Convert</string>
+    <string name="result">Result: </string> <!-- Added a space for better formatting -->
+    <string name="answer">Answer:</string>
+    <string name="enter_number">Please enter a number</string>
+    <string name="invalid_number_format">Invalid number format</string>
+    <string name="error">Error occurred</string>
+</resources>
