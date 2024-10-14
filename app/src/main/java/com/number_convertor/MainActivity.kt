@@ -69,7 +69,7 @@ class MainActivity : AppCompatActivity() {
                 "Binary" -> number.toDouble().toString(2)
                 "Decimal" -> number.toString()
                 "Octal" -> number.toDouble().toString(8)
-                "Hexadecimal" -> number.toDoublet().toString(16).uppercase()
+                "Hexadecimal" -> number.toDouble().toString(16).uppercase()
                 else -> throw IllegalArgumentException("Unsupported 'to' base")
             }
         } catch (e: NumberFormatException) {
